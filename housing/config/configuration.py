@@ -226,4 +226,4 @@ class Configuartion:
             logging.info(f"Training pipleine config: {training_pipeline_config}")
             return training_pipeline_config
         except Exception as e:
-            raise HousingException(e,sys) from e
+            raise PantryException(e,sys) from e

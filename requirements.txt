@@ -4,7 +4,8 @@ gunicorn
 sklearn
 pandas
 PyYAML
-evidently
+statsmodels
 dill
+evidently
 matplotlib
 -e .
